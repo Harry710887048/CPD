@@ -11,7 +11,7 @@ This is the codebase of our CVPR 2024 paper.
 - [Citation](#citation)
 
 $$
-\left.\omega_i=\left\{\begin{array}{ll}0&s_i^{css}<S_L\\\frac{s_i^{css}-S_L}{S_H-S_L}&S_L<s_i^{css}<S_H\\1&s_i^{css}>S_H\end{array}\right.\right.
+\(\left.\omega_i=\left\{\begin{array}{ll}0&s_i^{css}<S_L\\\frac{s_i^{css}-S_L}{S_H-S_L}&S_L<s_i^{css}<S_H\\1&s_i^{css}>S_H\end{array}\right.\right.\)
 $$
 ## Abstract
 **CPD** (**C**ommonsense **P**rototype-based **D**etector)  represents a high-performance unsupervised 3D detection framework. CPD first constructs Commonsense Prototype (CProto) characterized by high-quality bounding box and dense points, based on commonsense intuition. Subsequently, CPD refines the low-quality pseudo-labels by leveraging the size prior from CProto. Furthermore, CPD enhances the detection accuracy of sparsely scanned objects by the geometric knowledge from CProto, and outperforms state-of-the-art unsupervised 3D detectors on the Waymo Open Dataset (WOD)PandaSet, and KITTI datasets by a large margin.
